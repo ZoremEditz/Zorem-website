@@ -35,7 +35,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: rgba(0, 0, 0, 0.9);
+      background-color: rgba(0, 0, 0, 0.95);
       z-index: 9999;
       display: flex;
       justify-content: center;
@@ -44,12 +44,12 @@
       color: #ff4c98;
       font-size: 2rem;
       font-weight: 600;
-      animation: fadeOut 2s ease-out 2s forwards;
+      animation: fadeOut 1s ease-out 1.5s forwards;
     }
 
     @keyframes fadeOut {
       from { opacity: 1; }
-      to { opacity: 0; display: none; }
+      to { opacity: 0; visibility: hidden; }
     }
 
     header {
@@ -100,6 +100,14 @@
       font-size: 1.1rem;
       line-height: 1.6;
       text-align: center;
+    }
+
+    .quote-box {
+      font-style: italic;
+      margin-top: 30px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border-left: 4px solid #ff4c98;
     }
 
     .video-grid {
@@ -170,6 +178,7 @@
   <section id="about" class="section">
     <h2>👋 About Me</h2>
     <p>Yo! I'm Zorem Editz – a passionate content creator who loves anime and brings epic moments to life through edits. I post fire YouTube Shorts on anime like Jujutsu Kaisen, Solo Leveling, Naruto, and more! Whether you're here to vibe or get hyped, welcome to my world. 🎬</p>
+    <div class="quote-box">"I alone am the honored one." – Gojo Satoru</div>
   </section>
 
   <section id="featured" class="section">
@@ -211,12 +220,12 @@
       };
       (function () {
         var d = document, s = d.createElement('script');
-        s.src = 'https://zorem-editz.disqus.com/embed.js';
+        s.src = 'https://zoremeditz.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
       })();
     </script>
-    <noscript>Please enable JavaScript to view the comments.</noscript>
+    <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
   </section>
 
   <section id="contact" class="section">
