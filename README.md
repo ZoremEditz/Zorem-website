@@ -267,6 +267,25 @@
     <div class="video-grid">
       <iframe src="https://www.youtube.com/embed/6yTLr8svbWY" allowfullscreen></iframe>
       <iframe src="https://www.youtube.com/embed/BPWy1hlL_VQ" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/F6dkzIj6Aq4" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- JJK Section -->
+  <section class="section jjk-top">
+    <h2>💥 Jujutsu Kaisen Specials</h2>
+    <div class="video-grid">
+      <iframe src="https://www.youtube.com/embed/K01Fdf6pEdA" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/KXFLndbD9HY" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Demon Slayer Section -->
+  <section class="section demonslayer-top">
+    <h2>🔥 Demon Slayer Specials</h2>
+    <div class="video-grid">
+      <iframe src="https://www.youtube.com/embed/XzE22l_nBOI" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/11DXYkh_i5A" allowfullscreen></iframe>
     </div>
   </section>
 
@@ -278,15 +297,6 @@
       <iframe src="https://www.youtube.com/embed/yODg7agTcCM" allowfullscreen></iframe>
       <iframe src="https://www.youtube.com/embed/tLoCvvrlLEY" allowfullscreen></iframe>
       <iframe src="https://www.youtube.com/embed/cH4AljUsn_E" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/6yTLr8svbWY" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/BPWy1hlL_VQ" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/F6dkzIj6Aq4" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/QAoZ6YEMCxo" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/7PyY6LsdNdk" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/T2KcxkACh7g" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/6ck9xQPF878" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/0KV9jrKICpQ" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/kp8VxT8rLVc" allowfullscreen></iframe>
     </div>
   </section>
 
@@ -295,7 +305,9 @@
     <h2>📲 Connect With Me</h2>
     <p>
       🔗 <a href="https://www.youtube.com/@Zorem_Editz/shorts" target="_blank">YouTube</a><br>
-      📧 Email: <a href="mailto:zorem.editz@gmail.com">zorem.editz@gmail.com</a>
+      📧 Email: <a href="mailto:zorem.editz@gmail.com">zorem.editz@gmail.com</a><br>
+      📸 Instagram: <a href="https://www.instagram.com/Zorem_Editz">Zorem_Editz</a><br>
+      📘 Facebook: <a href="https://www.facebook.com/bipinchaulagain28">बिपिन चौलागाईं</a>
     </p>
   </section>
 
