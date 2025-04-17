@@ -8,12 +8,16 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #0d0d0d;
+      background-image: url('https://wallpapercave.com/wp/wp12436617.jpg'); /* Solo Leveling bg */
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
       color: white;
+      scroll-behavior: smooth;
     }
 
     header {
-      background: linear-gradient(90deg, #4b0082, #8a2be2);
+      background: rgba(0, 0, 0, 0.7);
       padding: 20px;
       text-align: center;
     }
@@ -25,8 +29,11 @@
 
     .section {
       padding: 30px 20px;
-      max-width: 1000px;
+      max-width: 1200px;
       margin: auto;
+      background: rgba(0, 0, 0, 0.7);
+      margin-bottom: 20px;
+      border-radius: 10px;
     }
 
     .section h2 {
@@ -53,7 +60,7 @@
     }
 
     .footer {
-      background-color: #1a1a1a;
+      background-color: rgba(0, 0, 0, 0.8);
       color: #aaa;
       text-align: center;
       padding: 20px;
@@ -72,6 +79,11 @@
 </head>
 <body>
 
+  <audio autoplay loop hidden>
+    <source src="https://files.catbox.moe/8mlghm.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
   <header>
     <h1>Zorem Editz</h1>
     <p>🔥 Anime Edits | JJK | Solo Leveling | More 🔥</p>
@@ -82,13 +94,27 @@
     <p>Yo! I'm Zorem Editz – a passionate content creator who loves anime and brings epic moments to life through edits. I post fire YouTube Shorts on anime like Jujutsu Kaisen, Solo Leveling, Naruto, and more! Whether you're here to vibe or get hyped, welcome to my world. 🎬</p>
   </section>
 
+  <section class="section featured">
+    <h2>🌟 Featured Edit of the Week</h2>
+    <iframe src="https://www.youtube.com/embed/IwmIkEqs0PQ" title="Featured Edit" allowfullscreen></iframe>
+  </section>
+
   <section class="section videos">
-    <h2>🎥 Latest Shorts</h2>
+    <h2>🎥 All Shorts</h2>
     <div class="video-grid">
-      <!-- Replace/add more YouTube Shorts as needed -->
-      <iframe src="https://www.youtube.com/embed/IwmIkEqs0PQ" title="Latest Short" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/4o3oHPYqzE8" title="Another Short" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/f2aXZ2e2ICM" title="Another Short" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/zrDeEYCEdtE" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/yODg7agTcCM" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/tLoCvvrlLEY" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/cH4AljUsn_E" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/6yTLr8svbWY" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/BPWy1hlL_VQ" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/F6dkzIj6Aq4" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/QAoZ6YEMCxo" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/7PyY6LsdNdk" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/T2KcxkACh7g" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/6ck9xQPF878" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/0KV9jrKICpQ" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/kp8VxT8rLVc" allowfullscreen></iframe>
     </div>
   </section>
 
@@ -96,7 +122,7 @@
     <h2>📲 Connect With Me</h2>
     <p>
       🔗 <a href="https://www.youtube.com/@Zorem_Editz/shorts" target="_blank">YouTube</a><br>
-      📧 Email: <a href="mailto:zorem.editz@gmail.com">zorem.editz@gmail.com</a> (example)
+      📧 Email: <a href="mailto:zorem.editz@gmail.com">zorem.editz@gmail.com</a>
     </p>
   </section>
 
