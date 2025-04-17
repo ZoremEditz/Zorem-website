@@ -195,9 +195,10 @@
     <div class="video-grid">
       <iframe src="https://www.youtube.com/embed/6yTLr8svbWY" allowfullscreen></iframe>
       <iframe src="https://www.youtube.com/embed/BPWy1hlL_VQ" allowfullscreen></iframe>
-      <!-- New video -->
       <iframe src="https://www.youtube.com/embed/IwmIkEqs0PQ" allowfullscreen></iframe>
     </div>
+    <!-- Added image to Solo Leveling Specials -->
+    <img src="https://static.wikia.nocookie.net/jujutsu-kaisen/images/f/f5/Satoru_quotes_I_alone_am_the_honored_one_%28Anime%29.png/revision/latest?cb=20230727233257" alt="Solo Leveling Image" style="width:100%; max-height: 400px; object-fit: cover;">
   </section>
 
   <section class="section jjk-top">
@@ -221,6 +222,18 @@
     <div class="video-grid">
       <iframe src="https://www.youtube.com/embed/XzE22l_nBOI" allowfullscreen></iframe>
       <iframe src="https://www.youtube.com/embed/11DXYkh_i5A" allowfullscreen></iframe>
+      <!-- Added new video for Demon Slayer -->
+      <iframe src="https://www.youtube.com/embed/kp8VxT8rLVc" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section class="section trollface-top">
+    <h2>🤡 Trollface / Skull Editz</h2>
+    <div class="video-grid">
+      <iframe src="https://www.youtube.com/embed/zrDeEYCEdtE" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/IwmIkEqs0PQ" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/F6dkzIj6Aq4" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/QAoZ6YEMCxo" allowfullscreen></iframe>
     </div>
   </section>
 
