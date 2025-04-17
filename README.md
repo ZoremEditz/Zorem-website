@@ -4,20 +4,56 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zorem Editz</title>
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
   <style>
     * {
       scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
     }
 
     body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Poppins', sans-serif;
       background-image: url('https://4kwallpapers.com/wp-content/uploads/2022/04/sung-jinwoo-dragon-15351.jpg'); /* New Anime Wallpaper */
       background-size: cover;
       background-attachment: fixed;
       background-position: center;
       color: white;
       overflow-x: hidden;
+      margin: 0;
+    }
+
+    /* Loading Screen */
+    #loading {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+      font-size: 2rem;
+      font-weight: 600;
+      opacity: 1;
+      animation: fadeOut 2s ease-out 1s forwards;
+    }
+
+    @keyframes fadeOut {
+      from {
+        opacity: 1;
+      }
+      to {
+        opacity: 0;
+        display: none;
+      }
     }
 
     header {
@@ -137,9 +173,16 @@
     #scrollTopBtn:hover {
       background: #ff79b0;
     }
+
   </style>
 </head>
 <body>
+
+  <!-- Loading Screen -->
+  <div id="loading">
+    <p>Loading... Please Wait</p>
+    <div class="spinner"></div>
+  </div>
 
   <audio autoplay loop hidden>
     <source src="https://files.catbox.moe/8mlghm.mp3" type="audio/mpeg">
@@ -209,26 +252,5 @@
     <h2>📲 Connect With Me</h2>
     <p>
       🔗 <a href="https://www.youtube.com/@Zorem_Editz/shorts" target="_blank">YouTube</a><br>
-      📧 Email: <a href="mailto:bipinchaulagain28@gmail.com">bipinchaulagain28@gmail.com</a><br>
-      📸 Instagram: <a href="https://www.instagram.com/Zorem_Editz" target="_blank">@Zorem_Editz</a><br>
-      📘 Facebook: <a href="https://www.facebook.com/bipin.chaulagain.98" target="_blank">बिपिन चौलागाईं</a><br>
-      🎮 MLBB ID: 1158448185 (13690)<br>
-      🎮 Free Fire ID: 644596611
-    </p>
-  </section>
+      📧 Email: <a href="mailto:bipinchaulagain28@gmail.com">bipinchaulagain28@gmail.com
 
-  <div class="footer">
-    <p>© 2025 Zorem Editz. All rights reserved.</p>
-    <p>Subscribe to reach 1k Army!</p>
-  </div>
-
-  <button id="scrollTopBtn" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">⬆️</button>
-
-  <script>
-    const scrollBtn = document.getElementById('scrollTopBtn');
-    window.onscroll = function () {
-      scrollBtn.style.display = (window.scrollY > 400) ? 'block' : 'none';
-    }
-  </script>
-
-</body
