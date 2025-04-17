@@ -93,6 +93,7 @@
       text-align: center;
     }
 
+    /* Three Dot Menu */
     .three-dot-menu {
       display: none;
       flex-direction: column;
@@ -294,10 +295,14 @@
     <h2>📲 Connect With Me</h2>
     <p>
       🔗 <a href="https://www.youtube.com/@Zorem_Editz/shorts" target="_blank">YouTube</a><br>
-      📧 Email: <a href="mailto:bipinchaulagain28@gmail.com">bipinchaulagain28@gmail.com</a><br>
-      📸 Instagram: <a href="https://www.instagram.com/Zorem_Editz" target="_blank">@Zorem_Editz</a><br>
+      📧 Email: <a href="mailto:zorem.editz@gmail.com">zorem.editz@gmail.com</a>
     </p>
   </section>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>© 2025 Zorem Editz. All rights reserved.</p>
+  </div>
 
   <!-- Scroll to Top Button -->
   <button id="scrollTopBtn" onclick="scrollToTop()">↑</button>
