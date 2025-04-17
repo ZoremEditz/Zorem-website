@@ -17,7 +17,7 @@
 
     body {
       font-family: 'Poppins', sans-serif;
-      background-image: url('https://4kwallpapers.com/wp-content/uploads/2022/04/sung-jinwoo-dragon-15351.jpg'); /* New Anime Wallpaper */
+      background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/15351.jpg'); /* New Anime Wallpaper */
       background-size: cover;
       background-attachment: fixed;
       background-position: center;
@@ -56,6 +56,7 @@
       }
     }
 
+    /* Navbar */
     header {
       position: fixed;
       top: 0;
@@ -68,7 +69,7 @@
 
     header nav {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
     }
 
@@ -90,6 +91,40 @@
       z-index: 2;
       position: relative;
       text-align: center;
+    }
+
+    .three-dot-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 50px;
+      right: 20px;
+      background: rgba(0, 0, 0, 0.8);
+      border-radius: 5px;
+      padding: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    }
+
+    .three-dot-menu a {
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 5px 0;
+    }
+
+    .three-dot-menu a:hover {
+      background-color: #ff4c98;
+    }
+
+    .dot {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: white;
+      cursor: pointer;
+      margin: 5px;
     }
 
     .parallax {
@@ -196,6 +231,13 @@
       <a href="#featured">Featured</a>
       <a href="#videos">All Shorts</a>
       <a href="#contact">Contact</a>
+      <div class="dot" onclick="toggleMenu()"></div>
+      <div class="three-dot-menu" id="dotMenu">
+        <a href="#about">About</a>
+        <a href="#featured">Featured</a>
+        <a href="#videos">All Shorts</a>
+        <a href="#contact">Contact</a>
+      </div>
     </nav>
     <h1>Zorem Editz</h1>
   </header>
@@ -252,5 +294,5 @@
     <h2>📲 Connect With Me</h2>
     <p>
       🔗 <a href="https://www.youtube.com/@Zorem_Editz/shorts" target="_blank">YouTube</a><br>
-      📧 Email: <a href="mailto:bipinchaulagain28@gmail.com">bipinchaulagain28@gmail.com
-
+      📧 Email: <a href="mailto:bipinchaulagain28@gmail.com">bipinchaulagain28@gmail.com</a><br>
+      📸 Instagram: <a href="https://www.instagram.com/Zorem_Editz" target="_blank">@Zorem_Editz</a><br
